@@ -12,10 +12,10 @@ npm i -g translator-node-cli
 
 ### Use
 ```bash
-// from en to zh
+# from en to zh
 fy hello 
 
-// from zh to en
+# from zh to en
 fy 你好
 ```
 
