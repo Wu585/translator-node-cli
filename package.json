@@ -1,0 +1,31 @@
+{
+  "name": "translator-node-cli",
+  "version": "0.0.2",
+  "main": "dist/main.ts",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wu585/translator-node-cli.git"
+  },
+  "author": {
+    "name": "Ricky",
+    "email": "rickywu585@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.3.2",
+    "@types/node": "17.0.41"
+  }
+}
